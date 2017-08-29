@@ -1,0 +1,16 @@
+{
+	"service_name" : "add_service",
+	"version" : 1,
+	"functions" : [
+		{
+			"function_name" : "add",
+			"parameters" : [{"first" : "int"}, {"second" : "int"}],
+			"return" : [{"result" : "int"}, {"addition" : "str"}]
+		},
+		{
+			"function_name" : "subtract",
+			"parameters" : [{"first" : "int"}, {"second" : "int"}],
+			"return" : [{"result" : "int"}, {"subtraction" : "str"}]
+		}
+	]
+}
